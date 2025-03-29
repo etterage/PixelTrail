@@ -8,6 +8,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #3d404b;
+    font-family: sans;
 }
 
 .main-container {
@@ -15,4 +19,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0;
 }
